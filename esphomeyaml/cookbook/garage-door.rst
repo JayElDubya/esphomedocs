@@ -56,7 +56,7 @@ The following is a possible configuration file for garage doors that are control
 The relay toggles the garage door action; either opening, closing, or stopping. A
 :doc:`binary-sensor </esphomeyaml/components/binary_sensor/index>` (such as a magnetic reed switch)
 provides the feedback for the garage door state.
-Note: Although the default value for ''optimistic:'' is false, it is left explicitly defined here
+Note: Although the default value for ``optimistic:`` is false, it is left explicitly defined here
 only to highlight it as a difference from the dual-relay example.
 
 
